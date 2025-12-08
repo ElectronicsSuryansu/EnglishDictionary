@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictinoary</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 id="header">English Dictinoary</h2>
+        <div class="content">
+        <input type="text" name="word" id="wordsearch" placeholder="Enter the word" >
+        <button type="submit" id="searchbtn">search</button>
+        </div>
+
+        <div class="resultContainer" id="resultContainer">
+            <h2 id="wordTitle"></h2>
+            <div id="wordDescription"></div>
+            <div id="audioContainer">
+                <button id="audioButton"><i class="fa fa-volume-up"></i></button>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
